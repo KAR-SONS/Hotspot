@@ -161,30 +161,6 @@ export default function HomePage() {
             </div>
             <p className="mt-3 text-sm">Earn from your WiFi connection</p>
           </div>
-          <div>
-            <h4 className="font-semibold text-white">Product</h4>
-            <ul className="mt-3 space-y-2 text-sm">
-              <li>Features</li>
-              <li>Pricing</li>
-              <li>Security</li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-semibold text-white">Company</h4>
-            <ul className="mt-3 space-y-2 text-sm">
-              <li>About</li>
-              <li>Blog</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-semibold text-white">Legal</h4>
-            <ul className="mt-3 space-y-2 text-sm">
-              <li>Privacy</li>
-              <li>Terms</li>
-              <li>Support</li>
-            </ul>
-          </div>
         </div>
         <p className="mt-10 text-center text-xs text-slate-500">
           © {new Date().getFullYear()} Hotspot Mtaani. All rights reserved.

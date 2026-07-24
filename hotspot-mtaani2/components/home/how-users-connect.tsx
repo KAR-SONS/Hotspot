@@ -3,17 +3,17 @@
 import { useState } from "react";
 
 const steps = [
-  { n: 1, emoji: "📝", title: "Sign Up", desc: "Create your account in seconds" },
-  { n: 2, emoji: "🏢", title: "Setup Business", desc: "Add business details and create hotspot" },
-  { n: 3, emoji: "📦", title: "Create Packages", desc: "Set pricing for your Hotspot packages" },
-  { n: 4, emoji: "💰", title: "Start Earning", desc: "Manage your business and earn money" },
+  { n: 1,  title: "Activation", desc: "Activate your hotspot in your dashboard by toggling the switch to 'ON'" },
+  { n: 2,  title: "Users", desc: "Users see your wifi." },
+  { n: 3,  title: "Payment", desc: "Users click on your wifi and pay for the package" },
+  { n: 4,  title: "Access", desc: "Users connect to your wifi and access the internet for the selected time" },
 ];
 
-export default function HowItWorks() {
+export default function HowUsersConnect() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section id="how-it-works" className="bg-slate-50 py-5">
+    <section id="how-users-connect" className="bg-slate-50 py-5">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <button
           type="button"
@@ -21,7 +21,7 @@ export default function HowItWorks() {
           aria-expanded={open}
           className="mx-auto flex w-full items-center justify-center gap-3"
         >
-          <h2 className="text-2xl font-bold text-slate-900">How It Works</h2>
+          <h2 className="text-2xl font-bold text-slate-900">How Users Connect</h2>
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -44,7 +44,6 @@ export default function HowItWorks() {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {steps.map((s) => (
                 <div key={s.n} className="rounded-xl border border-slate-200 bg-white p-6">
-                  <div className="text-2xl">{s.emoji}</div>
                   <div className="mt-4 flex h-7 w-7 items-center justify-center rounded-full bg-brand-500 text-sm font-bold text-white">
                     {s.n}
                   </div>

@@ -1,20 +1,20 @@
 const reviews = [
   {
-    name: "James Mwangi",
+    name: "Felix Soi",
     message:
       "I set this up in one afternoon and started earning from my home WiFi the same week. The dashboard makes it so easy to manage.",
-    image: "",
+    image: "./Hotspot-page.png",
   },
   {
-    name: "Faith Wanjiru",
+    name: "Lydia Murugi",
     message:
       "Simple to use and the M-Pesa payments just work. My hotspot business has grown a lot since I started using Hotspot Mtaani.",
     image: "",
   },
   {
-    name: "Brian Otieno",
+    name: "John King'ori",
     message:
-      "Support was quick to respond when I had a question during setup. Would recommend to anyone thinking of doing this in Kenya.",
+      "Setup was very quick and easy. Would recommend to anyone thinking of doing this in Kenya.",
     image: "",
   },
 ];
@@ -41,16 +41,16 @@ export default function Testimonials() {
 
               <p className="mt-4 text-sm text-slate-600">&ldquo;{r.message}&rdquo;</p>
 
-              <div className="mt-5 flex items-center gap-3">
+              <div className="mt-5 flex flex-col items-center gap-3">
                 {r.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={r.image}
                     alt={r.name}
-                    className="h-10 w-10 rounded-full object-cover"
+                    className="h-100 w-120 rounded-lg object-cover"
                   />
                 ) : (
-                  <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-100 text-sm font-semibold text-brand-600">
+                  <span className="flex h-100 w-120 items-center justify-center rounded-full bg-brand-100 text-sm font-semibold text-brand-600">
                     {r.name.charAt(0)}
                   </span>
                 )}

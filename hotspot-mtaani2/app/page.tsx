@@ -1,6 +1,8 @@
 import Link from "next/link";
 import HowItWorks from "@/components/home/how-it-works";
 import Testimonials from "@/components/home/testimonials";
+import HowUsersConnect from "@/components/home/how-users-connect";
+import HotspotDetails from "@/components/home/hotspot-details";
 
 const perks = [
   {
@@ -94,8 +96,8 @@ export default function HomePage() {
 
       {/* How it works */}
       <HowItWorks />
-
-      {/* Testimonials */}
+      <HowUsersConnect />
+      <HotspotDetails />
       <Testimonials />
 
       {/* Why choose us */}

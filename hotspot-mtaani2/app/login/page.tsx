@@ -36,20 +36,9 @@ export default function LoginPage() {
 
         <div className="mt-8 flex w-full items-start gap-3 rounded-lg border border-blue-100 bg-blue-50 p-4 text-left text-sm text-blue-800">
           <span className="mt-0.5">ℹ️</span>
-          <p>You&apos;ll set up your business details after signing in. Payment is required before going live.</p>
+          <p>You&apos;ll set up your business details after signing in.</p>
         </div>
 
-        <p className="mt-8 text-xs text-slate-400">
-          By continuing, you agree to our{" "}
-          <Link href="/terms" className="text-brand-600 hover:underline">
-            Terms of Service
-          </Link>{" "}
-          and{" "}
-          <Link href="/privacy" className="text-brand-600 hover:underline">
-            Privacy Policy
-          </Link>
-          .
-        </p>
       </div>
     </main>
   );

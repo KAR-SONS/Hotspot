@@ -105,7 +105,7 @@ export default function BusinessInfoStep({
 
         <div>
           <label className="mb-1.5 block text-sm font-medium text-slate-700">
-            Phone Number (Optional)
+            Mpesa Number <span className="text-red-500">*</span>
           </label>
           <input
             type="tel"

@@ -116,6 +116,7 @@ export default function HotspotStep({
             placeholder="e.g. 10"
             className={inputClass}
           />
+          <p className="mt-1 text-sm text-slate-500">1 to 1,000 users depending on your internet speed</p>
         </div>
 
         {businessType === "mobile_hotspot" ? (
@@ -174,7 +175,7 @@ export default function HotspotStep({
               placeholder="Paste the link from your router or phone's WiFi share feature"
               className={inputClass}
             />
-            <p className="mt-1 text-xs text-slate-400">
+            <p className="mt-1 text-sm text-slate-400">
               Generate this from your WiFi settings — most phones and routers have a &quot;Share&quot;
               option that creates a link or QR code for the network.
             </p>

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import HowItWorks from "@/components/home/how-it-works";
-import Testimonials from "@/components/home/testimonials";
 import HowUsersConnect from "@/components/home/how-users-connect";
 import HotspotDetails from "@/components/home/hotspot-details";
+import Testimonials from "@/components/home/testimonials";
 
 const perks = [
   {
@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Header */}
-      <header className="sticky top-0 z-30 border-b border-slate-100 bg-white/90 backdrop-blur">
+      <header className="sticky top-0 z-30 border-b border-slate-300 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
           <div className="flex items-center gap-2">
             <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-500 text-white">
@@ -49,7 +49,7 @@ export default function HomePage() {
             <span className="text-lg font-bold tracking-tight">Hotspot Mtaani</span>
           </div>
           <Link
-            href="/login"
+            href="/signup"
             className="rounded-lg bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-600"
           >
             Get Started
@@ -62,16 +62,16 @@ export default function HomePage() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl">
-              Earn Money from Your WiFi
+              Earn Money from Your Mobile Data Hotspot
             </h1>
             <p className="mt-5 text-lg text-slate-600">
-              Turn your WiFi connection into a profitable business. Create packages, manage
+              Turn your Mobile Data connection into a profitable business. Create packages, manage
               hotspots, and start earning today with Hotspot Mtaani.
             </p>
-            <p className="mt-3 text-slate-500">Simple, secure, and designed for African markets.</p>
+            <p className="mt-3 text-slate-500">Simple, secure, and designed for Kenyan market.</p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
-                href="/login"
+                href="/signup"
                 className="rounded-lg bg-brand-500 px-6 py-3 font-semibold text-white transition hover:bg-brand-600"
               >
                 Start Earning
@@ -89,7 +89,7 @@ export default function HomePage() {
             <svg viewBox="0 0 24 24" fill="none" strokeWidth={1.5} stroke="currentColor" className="mx-auto mb-6 h-16 w-16 opacity-90">
               <path strokeLinecap="round" strokeLinejoin="round" d="M8.111 16.404a5.5 5.5 0 017.778 0M5 12.859a9.5 9.5 0 0114 0M12 20h.01" />
             </svg>
-            <p className="text-xl font-semibold">Your WiFi, Your Income</p>
+            <p className="text-xl font-semibold">Your Data, Your Income</p>
           </div>
         </div>
       </section>
@@ -126,7 +126,7 @@ export default function HomePage() {
             <p className="mt-2 text-5xl font-extrabold text-brand-500">KSH 100</p>
             <p className="mt-2 text-sm text-slate-500">One-time payment to get started</p>
             <Link
-              href="/login"
+              href="/signup"
               className="mt-6 block rounded-lg bg-brand-500 px-6 py-3 font-semibold text-white transition hover:bg-brand-600"
             >
               Get Started Now
@@ -138,10 +138,10 @@ export default function HomePage() {
       {/* CTA */}
       <section className="bg-brand-500 py-16 text-center text-white">
         <div className="mx-auto max-w-6xl px-5 sm:px-8">
-          <h2 className="text-3xl font-bold">Ready to Start Your WiFi Business?</h2>
+          <h2 className="text-3xl font-bold">Ready to Start Your Hotspot Business?</h2>
           <p className="mt-2 text-brand-50">Join thousands of entrepreneurs earning with Hotspot Mtaani</p>
           <Link
-            href="/login"
+            href="/signup"
             className="mt-6 inline-block rounded-lg bg-white px-6 py-3 font-semibold text-brand-600 transition hover:bg-brand-50"
           >
             Sign Up Today
@@ -161,7 +161,7 @@ export default function HomePage() {
               </span>
               <span className="font-bold">Hotspot Mtaani</span>
             </div>
-            <p className="mt-3 text-sm">Earn from your WiFi connection</p>
+            <p className="mt-3 text-sm">Earn from your Mobile Data connection</p>
           </div>
         </div>
         <p className="mt-10 text-center text-xs text-slate-500">

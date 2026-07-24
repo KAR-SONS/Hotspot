@@ -83,7 +83,7 @@ export default function PackageFormModal({
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="e.g. Basic Daily Pass"
+              placeholder="e.g. Basic 1 hour package"
               className={inputClass}
             />
           </div>
@@ -121,7 +121,7 @@ export default function PackageFormModal({
               min={1}
               value={price}
               onChange={(e) => setPrice(e.target.value)}
-              placeholder="e.g. 50"
+              placeholder="e.g. 10"
               className={inputClass}
             />
           </div>

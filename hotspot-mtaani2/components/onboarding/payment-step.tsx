@@ -88,7 +88,7 @@ export default function PaymentStep({ onBack }: { onBack: () => void }) {
       <Script src="https://js.paystack.co/v1/inline.js" onLoad={() => setScriptReady(true)} />
 
       <h2 className="text-2xl font-bold text-slate-900">Setup Payment</h2>
-      <p className="mt-1 text-slate-500">Pay a one-time fee to activate your hotspot</p>
+      <p className="mt-1 text-slate-500">Pay a one-time fee to activate your hotspot business</p>
 
       {error && (
         <div className="mt-4 rounded-lg border border-red-100 bg-red-50 px-4 py-3 text-sm text-red-700">

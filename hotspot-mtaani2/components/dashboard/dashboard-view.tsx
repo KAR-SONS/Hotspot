@@ -3,7 +3,6 @@
 import { useState, useTransition } from "react";
 import { toggleOnlineStatus, signOut, deletePackage } from "@/app/dashboard/actions";
 import PackageFormModal from "./package-form-modal";
-import InstallAppButton from "./install-app-button";
 
 type Business = {
   business_name: string;
@@ -232,11 +231,6 @@ export default function DashboardView({
               )}
             </dl>
           </div>
-        </div>
-
-        {/* Install App */}
-        <div className="mt-6">
-          <InstallAppButton />
         </div>
       </div>
 

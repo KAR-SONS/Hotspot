@@ -30,13 +30,13 @@ export default function LoginPage() {
         <h1 className="mt-6 text-3xl font-bold text-slate-900">Welcome to Hotspot Mtaani</h1>
         <p className="mt-2 text-slate-500">Join Hotspot Mtaani and start earning</p>
 
-        <div className="mt-10 w-full">
+        <div className="mt-10 w-full border-slate-200">
           <GoogleAuthButton />
         </div>
 
-        <div className="mt-8 flex w-full items-start gap-3 rounded-lg border border-blue-100 bg-blue-50 p-4 text-left text-sm text-blue-800">
+        <div className="mt-8 flex w-full items-start gap-3 rounded-lg border border-blue-100 bg-blue-50 p-4 text-left text-md text-blue-800">
           <span className="mt-0.5">ℹ️</span>
-          <p>You&apos;ll set up your business details after signing in.</p>
+          <p >You&apos;ll set up your business details after signing in.</p>
         </div>
 
       </div>

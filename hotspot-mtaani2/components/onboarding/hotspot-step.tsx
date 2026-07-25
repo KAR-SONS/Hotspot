@@ -166,7 +166,7 @@ export default function HotspotStep({
         ) : (
           <div className="sm:col-span-2">
             <label className={labelClass}>
-              WiFi Share Link <span className="text-red-500">*</span>
+              WiFi Share Link/Wifi Name <span className="text-red-500">*</span>
             </label>
             <input
               type="text"

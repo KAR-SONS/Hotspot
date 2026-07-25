@@ -172,7 +172,7 @@ export default function HotspotStep({
               type="text"
               value={wifiShareLink}
               onChange={(e) => setWifiShareLink(e.target.value)}
-              placeholder="Paste the link from your router or phone's WiFi share feature"
+              placeholder="Wifi Share Link or Wifi Name"
               className={inputClass}
             />
             <p className="mt-1 text-sm text-slate-400">

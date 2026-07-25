@@ -13,7 +13,7 @@ declare global {
   }
 }
 
-const SETUP_FEE_KES = 100;
+const SETUP_FEE_KES = 50;
 
 export default function PaymentStep({ onBack }: { onBack: () => void }) {
   const [loading, setLoading] = useState(false);
